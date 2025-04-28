@@ -2,6 +2,8 @@
 node_modules
 /dist
 
+*.exe
+
 arya.config.js
 
 # package-lock

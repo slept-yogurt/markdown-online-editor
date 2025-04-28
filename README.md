@@ -132,6 +132,13 @@ docker-compose up -d
 
 这将在后台启动服务，并且效果与下面的  `docker run`  命令相同。使用 Docker Compose 可以更方便地管理多个容器，并且配置更易读和维护。
 
+### 打包成单个可执行文件
+在`windows终端`依次执行以下指令
+1. `yarn install`
+2. `set NODE_OPTIONS=--openssl-legacy-provider`
+3. `yarn build`
+如果以上指令正常结束，会在根目录生成`markdown-online-editor.exe`
+
 ## 如何开发
 
 ### 先决条件
